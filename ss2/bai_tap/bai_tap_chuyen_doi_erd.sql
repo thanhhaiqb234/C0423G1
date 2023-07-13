@@ -40,7 +40,8 @@ create table don_dat_hang (
 ma_don_dat_hang int auto_increment,
 so_don_hang int,
 ngay_don_hang date,
-primary key (ma_don_dat_hang)
+primary key (ma_don_dat_hang),
+foreign key (ma_don_dat_hang) references nha_cung_cap(ma_nha_cung_cap)
 );
 create table vat_tu_don_dat_hang (
 ma_don_dat_hang int not null ,
@@ -52,8 +53,7 @@ foreign key (ma_vat_tu) references vat_tu (ma_vat_tu)
 create table nha_cung_cap (
 ma_nha_cung_cap int auto_increment primary key,
 ten_nha_cung_cap varchar (100),
-dia_chi varchar(100),
-foreign key (ma_nha_cung_cap) references don_dat_hang(ma_don_dat_hang)
+dia_chi varchar(100)
 );
 create table phone (
 ma_phone int auto_increment,
