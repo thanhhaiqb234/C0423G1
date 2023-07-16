@@ -159,3 +159,40 @@ insert into furama.hop_dong_chi_tiet value
 (6,1,1,3),
 (7,2,1,2),
 (8,2,12,2);
+
+insert into furama.vi_tri value 
+(3,'Giám Đốc');
+insert into furama.trinh_do value
+(5, '12/12');
+insert into furama.bo_phan value 
+(5,'Chạy Bàn');
+insert into furama.nhan_vien value
+(11,'Đinh Thanh Hải','1999-09-20',012345678,'5000000',0123456789,'dinhthanhhai@gmail.com','111 Hoàng Hoa Thám',3,5,5);
+insert into furama.loai_khach value
+(6,'Titanium');
+insert into furama.khach_hang value 
+(11,'Phạm Công Nam','1996-05-23',0,'123456789','0945123789','phamcongnam@giaml.com','123 Hai Bà Trưng',6);
+insert into furama.kieu_thue value
+(5,'morning');
+insert into furama.loai_dich_vu value
+(4,'Hotel');
+insert into furama.dich_vu value
+(7,'Hotel 01',30000,100000,3,'vip','Có tivi',null,5,'1 Xe đạp',5,4);
+insert into furama.dich_vu_chi_tiet value
+(7,'Massage',100000,'Giờ','Tốt/Hoạt động 24/7');
+insert into furama.hop_dong value
+(13,'2023-07-17','2023-07-20',10000,8,11,4);
+insert into furama.hop_dong_chi_tiet value 
+(9,9,9,7);
+use furama ;
+
+select * from furama.nhan_vien
+ where furama.nhan_vien.ho_ten like 'H%' or furama.nhan_vien.ho_ten like 'T%'
+ or furama.nhan_vien.ho_ten like 'K%' or furama.nhan_vien.ho_ten <= 5 ;
+ 
+ 
+select * from furama.khach_hang
+where year('2023-07-17') - year(khach_hang.ngay_sinh) >= 18 and year('2023-07-17') - year(khach_hang.ngay_sinh) <= 50
+and khach_hang.dia_chi like '% Đà nẵng' or khach_hang.dia_chi like '% Quảng Trị'; 
+
+select count(*) from furama.khach_hang where furama.khach_hang.ma_loai_khach = 1 ;
