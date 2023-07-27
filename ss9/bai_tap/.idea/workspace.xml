@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="808f4319-618c-4757-a33f-ac6647b6aede" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/bai_1/src/main/java/com/example/bai_1/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/bai_1/src/main/java/com/example/bai_1/ThucHanhServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/simple_dictionary/src/main/java/com/example/simple_dictionary/TuDien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss3/bai_tap/bai_tap_quan_ly_ban_hang.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3/bai_tap/bai_tap_quan_ly_ban_hang.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss3/quan_ly_sinh_vien.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3/quan_ly_sinh_vien.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/bai_tap/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss8/bai_tap/demo.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2T8cueYCxEzRYykwlJbNNwRkanP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/codegym/module_3/ss9/bai_tap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="808f4319-618c-4757-a33f-ac6647b6aede" name="Changes" comment="" />
+      <created>1690428371503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690428371503</updated>
+      <workItem from="1690428372510" duration="207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
