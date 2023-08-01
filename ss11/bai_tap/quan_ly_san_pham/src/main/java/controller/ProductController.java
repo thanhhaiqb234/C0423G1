@@ -25,6 +25,12 @@ public class ProductController extends HttpServlet {
             case "create":
                 request.getRequestDispatcher("/create.jsp").forward(request,response);
                 break;
+            case "detele":
+                request.getRequestDispatcher("/detele.jsp").forward(request,response);
+                break;
+            case "search":
+                request.getRequestDispatcher("/search.jsp").forward(request,response);
+                break;
             default:
                List<Product> productList = productService.getAll();
                if (productList.size() == 0){
@@ -54,10 +60,15 @@ public class ProductController extends HttpServlet {
                 productService.addProduct(product);
                 response.sendRedirect("/products");
                 break;
-            case "delete":
+            case "detele":
                 int productID = Integer.parseInt(request.getParameter("id"));
                 productService.deteleProduct(productID);
                 response.sendRedirect("/products");
+            case "search":
+                String nameProduct = request.getParameter("name");
+
+                request.setAttribute("products", productService.search(nameProduct));
+                request.getRequestDispatcher("list.jsp").forward(request,response);
         }
     }
 }

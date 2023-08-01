@@ -22,4 +22,10 @@ public class ProductService implements IProductService{
     public void deteleProduct(int product) {
         productRepositoey.detele(product);
     }
+
+    @Override
+    public List<Product> search(String product) {
+        return productRepositoey.search(product);
+    }
+
 }

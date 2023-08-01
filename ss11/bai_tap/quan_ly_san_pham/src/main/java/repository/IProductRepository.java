@@ -8,4 +8,5 @@ public interface IProductRepository {
     List<Product> getAll();
     void addProduct(Product product);
     void detele(int product);
+    List<Product> search(String product);
 }

@@ -16,6 +16,9 @@
 <body>
 <h1>Danh Sách Sản Phẩm</h1>
 <a href="/products?action=create">Create</a>
+<a href="/products?action=detele">Detele</a>
+<a href="/products?action=search">seach</a>
+<a href="/products?action=null">Back To Product List</a>
 <table class="table table-dark table-striped">
   <thead>
   <tr>
@@ -41,7 +44,6 @@
       </tr>
     </c:forEach>
   </c:if>
-
   </tbody>
 </table>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

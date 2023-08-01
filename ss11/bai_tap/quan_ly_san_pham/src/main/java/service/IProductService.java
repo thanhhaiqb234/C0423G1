@@ -8,4 +8,5 @@ public interface IProductService {
     List<Product> getAll();
     void addProduct(Product product);
     void deteleProduct(int product);
+    List<Product> search(String product);
 }
