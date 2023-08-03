@@ -22,7 +22,7 @@ public class BaseRepository {
         }
 
     }
-    private BaseRepository(){
+    private   BaseRepository(){
 
     }
     public static Connection getConnectionJavaToDB(){

@@ -15,7 +15,7 @@
 <center>
   <h1>User Management</h1>
   <h2>
-    <a href="users?action=users">List All Users</a>
+    <a href="/users?action=edit">List All Users</a>
   </h2>
 </center>
 <div align="center">
@@ -27,7 +27,7 @@
         </h2>
       </caption>
       <c:if test="${user != null}">
-        <input type="hidden" name="id" value="<c:out value='${user.id}' />"/>
+        <input itemid="" type="hidden" name="id" value="<c:out value='${user.id}' />"/>
       </c:if>
       <tr>
         <th>User Name:</th>

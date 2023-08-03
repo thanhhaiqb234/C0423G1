@@ -12,4 +12,24 @@ public class UserService implements IUserService{
     public void addUser(User user) {
         userRepository.addUser(user);
     }
+
+    @Override
+    public List<User> getAll() {
+        return userRepository.getAll();
+    }
+
+    @Override
+    public void delete(int id) {
+        userRepository.delete(id);
+    }
+
+    @Override
+    public List<User> search(String namee) {
+        return userRepository.search(namee);
+    }
+
+    @Override
+    public Object edit(int idUser) {
+        return userRepository.edit(idUser);
+    }
 }
